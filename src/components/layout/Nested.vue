@@ -112,7 +112,7 @@ export default {
       }
     }
 
-    :deep .el-submenu__title {
+    :deep() .el-submenu__title {
       display: flex;
       align-items: center;
       height: 40px;
@@ -120,7 +120,7 @@ export default {
     }
 
     // 箭頭樣式
-    :deep .el-icon-arrow-down {
+    :deep() .el-icon-arrow-down {
       margin-top: -11px;
     }
   }

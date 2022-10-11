@@ -1,6 +1,6 @@
 # 主題：臺灣旅遊景點導覽維護功能 Taiwan Tourism Attraction
 
-### Git 專案分支名稱：vue-cli-training
+### Git 專案分支名稱：vue-training-step1
 
 ### API 來源資訊
 - <a href="https://ptx.transportdata.tw/MOTC?urls.primaryName=觀光V2#/Tourism/TourismApi_ScenicSpot_2240" target="_blank">景點說明網址</a>
