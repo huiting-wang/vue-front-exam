@@ -92,3 +92,65 @@
 - `[NPM]`: 套件更新
 - `[ENV]`: 環境變數設定變更
 - `[Doc]`: 開發或規範文件
+
+---
+
+# Installation
+To install this package, use one of the following commands. You need administrator privileges to execute these unless npm was installed on your system through a Node.js version manager (e.g. n or nvm).
+
+```
+npm install -g @vue/cli@5.0.8
+```
+
+After installation, you will have access to the `vue` binary in your command line.
+
+You can run scripts with additional features using the GUI with the ｀vue ui｀ command.
+
+---
+
+# NPM Scripts
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Run your end-to-end tests
+```
+npm run test:e2e
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Check every module defined in `package.json` and if there is a newer version in the NPM registry.
+```
+npm outdated
+```
+
+or install [npm-check](https://www.npmjs.com/package/npm-check) plugin
+
+```
+npm-check -u
+```
+
+### Export webpack config file
+```
+vue inspect > output.js
+```
+
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
