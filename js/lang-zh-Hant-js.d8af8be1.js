@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_front_exam"]=self["webpackChunkvue_front_exam"]||[]).push([[219],{1097:function(e,u,a){a.r(u);var t=a(6868);u["default"]={test:"測試",language:"繁中",...t.Z}}}]);
