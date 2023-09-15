@@ -20,44 +20,53 @@ export const routes = [
     name: 'homePage',
     path: '/',
     component: Layout,
-    redirect: '/home',
+    redirect: '/html-basic',
     children: [
       {
-        name: 'rulesMarkdown',
-        path: 'home',
-        component: () => import('@/views/HomePage.vue'),
-        meta: {
-          icon: 'home',
-          title: '團隊開發規範',
-        },
-      },
-      {
-        name: 'subjectMarkdown',
-        path: 'subject',
-        component: () => import('@/views/SubjectPage.vue'),
+        name: 'htmlBasicMarkdown',
+        path: 'html-basic',
+        component: () => import('@/views/HtmlBasic.vue'),
         meta: {
           icon: 'information',
-          title: '主題資訊',
+          title: 'HTML基礎',
         },
       },
       {
-        name: 'frontMarkdown',
-        path: 'front-end-feature',
-        component: () => import('@/views/FrontFeature.vue'),
+        name: 'htmlCommonMarkdown',
+        path: 'html-common',
+        component: () => import('@/views/HtmlCommon.vue'),
         meta: {
-          icon: 'function-variant',
-          title: '前台功能需求',
+          icon: 'information',
+          title: 'HTML常用標籤',
         },
       },
-      {
-        name: 'BackEndMarkdown',
-        path: 'back-end-feature',
-        component: () => import('@/views/BackFeature.vue'),
-        meta: {
-          icon: 'function-variant',
-          title: '後台功能需求',
-        },
-      },
+      // {
+      //   name: 'subjectMarkdown',
+      //   path: 'subject',
+      //   component: () => import('@/views/SubjectPage.vue'),
+      //   meta: {
+      //     icon: 'information',
+      //     title: '主題資訊',
+      //   },
+      // },
+      // {
+      //   name: 'frontMarkdown',
+      //   path: 'front-end-feature',
+      //   component: () => import('@/views/FrontFeature.vue'),
+      //   meta: {
+      //     icon: 'function-variant',
+      //     title: '前台功能需求',
+      //   },
+      // },
+      // {
+      //   name: 'BackEndMarkdown',
+      //   path: 'back-end-feature',
+      //   component: () => import('@/views/BackFeature.vue'),
+      //   meta: {
+      //     icon: 'function-variant',
+      //     title: '後台功能需求',
+      //   },
+      // },
     ],
   },
 ];

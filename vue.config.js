@@ -72,7 +72,7 @@ module.exports = {
     config.plugins.delete('preload');
     // public/index.html - Meta
     config.plugin('html').tap((args) => {
-      args[0].title = 'Vue Front Exam';
+      args[0].title = 'Front-End Pad';
       return args;
     });
     // 加載 markdown 文件

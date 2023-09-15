@@ -23,6 +23,47 @@
 
       <!-- 主要內容 -->
       <el-main id="layout-main">
+        <ul
+          style="
+            text-align: left;
+            padding: 20px;
+            margin-left: 20px;
+            border: 1px solid #efae00;
+            background-color: #fcf7e0;
+            border-radius: 10px;
+            line-height: 36px;
+          "
+        >
+          <li>
+            HTML 歷史沿革：<a
+              href="https://zh.wikipedia.org/zh-tw/HTML"
+              target="_blank"
+              >HTML 維基百科</a
+            >
+          </li>
+          <li>
+            HTML 標籤大全：<a
+              href="https://www.w3schools.com/html/default.asp"
+              target="_blank"
+              >w3schools</a
+            >
+          </li>
+          <li>
+            線上即時 HTML 編輯器，修改原始碼立即查看效果變化：<a
+              href="https://html.cafe/"
+              target="_blank"
+              >html.cafe</a
+            >
+          </li>
+          <li>
+            練習成果：<a
+              href="https://jedchang.github.io/Taiwan-Tourism-Attraction"
+              target="_blank"
+              >旅遊風格網頁</a
+            >
+          </li>
+        </ul>
+
         <router-view></router-view>
       </el-main>
     </el-container>
