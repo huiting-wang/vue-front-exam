@@ -5,7 +5,7 @@ const ghpages = require('gh-pages');
 
 const options = {
   branch: 'gh-pages',
-  repo: 'https://github.com/huiting-wang/vue2-front-training.git',
+  repo: 'https://github.com/huiting-wang/web-application-course.git',
 };
 
 const callback = (err) => {

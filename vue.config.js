@@ -5,7 +5,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const isProduction = ['production'].includes(process.env.NODE_ENV);
 
 module.exports = {
-  publicPath: isProduction ? '/vue2-front-training/' : '/',
+  publicPath: isProduction ? '/web-application-course/' : '/',
   // 是否開啟 ESlint 檢測
   lintOnSave: true,
   // 是否在打包時產出 Source Map
